@@ -207,10 +207,10 @@ async function loadJSONTracks() {
   try {
     // Fetch JSON files from the src directory
     const [basslineRes, pianoRes, polyRes, drumRes] = await Promise.all([
-      fetch('/src/Bassline.JSON'),
-      fetch('/src/Piano.JSON'),
-      fetch('/src/Poly.JSON'),
-      fetch('/src/DrumMachine.JSON')
+      fetch('./Bassline.JSON'),
+      fetch('./Piano.JSON'),
+      fetch('./Poly.JSON'),
+      fetch('./DrumMachine.JSON')
     ])
 
     if (!basslineRes.ok || !pianoRes.ok || !polyRes.ok || !drumRes.ok) {

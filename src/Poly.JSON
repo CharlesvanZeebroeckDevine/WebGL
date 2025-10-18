@@ -1,0 +1,2347 @@
+{
+    "header": {
+        "keySignatures": [],
+        "meta": [],
+        "name": "Random",
+        "ppq": 96,
+        "tempos": [],
+        "timeSignatures": [
+            {
+                "ticks": 0,
+                "timeSignature": [
+                    4,
+                    4
+                ],
+                "measures": 0
+            },
+            {
+                "ticks": 0,
+                "timeSignature": [
+                    4,
+                    4
+                ],
+                "measures": 0
+            }
+        ]
+    },
+    "tracks": [
+        {
+            "channel": 0,
+            "controlChanges": {},
+            "pitchBends": [],
+            "instrument": {
+                "family": "piano",
+                "number": 0,
+                "name": "acoustic grand piano"
+            },
+            "name": "Random",
+            "notes": [
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 0,
+                    "time": 0,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 24,
+                    "time": 0.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 48,
+                    "time": 0.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 72,
+                    "time": 0.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 96,
+                    "time": 0.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 120,
+                    "time": 0.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 144,
+                    "time": 0.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 168,
+                    "time": 0.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 192,
+                    "time": 1,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 216,
+                    "time": 1.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 240,
+                    "time": 1.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 264,
+                    "time": 1.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 288,
+                    "time": 1.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 312,
+                    "time": 1.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 336,
+                    "time": 1.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 360,
+                    "time": 1.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 384,
+                    "time": 2,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 408,
+                    "time": 2.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 432,
+                    "time": 2.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 456,
+                    "time": 2.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 480,
+                    "time": 2.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 504,
+                    "time": 2.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 528,
+                    "time": 2.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 552,
+                    "time": 2.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 576,
+                    "time": 3,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 600,
+                    "time": 3.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 624,
+                    "time": 3.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 648,
+                    "time": 3.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 672,
+                    "time": 3.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 696,
+                    "time": 3.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 720,
+                    "time": 3.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 744,
+                    "time": 3.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 768,
+                    "time": 4,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 792,
+                    "time": 4.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 816,
+                    "time": 4.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 840,
+                    "time": 4.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 864,
+                    "time": 4.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 888,
+                    "time": 4.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 912,
+                    "time": 4.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 936,
+                    "time": 4.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 960,
+                    "time": 5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 92,
+                    "name": "G#6",
+                    "ticks": 984,
+                    "time": 5.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 1008,
+                    "time": 5.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1032,
+                    "time": 5.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 92,
+                    "name": "G#6",
+                    "ticks": 1056,
+                    "time": 5.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 1080,
+                    "time": 5.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1104,
+                    "time": 5.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 92,
+                    "name": "G#6",
+                    "ticks": 1128,
+                    "time": 5.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 1152,
+                    "time": 6,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1176,
+                    "time": 6.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 92,
+                    "name": "G#6",
+                    "ticks": 1200,
+                    "time": 6.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 1224,
+                    "time": 6.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1248,
+                    "time": 6.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 92,
+                    "name": "G#6",
+                    "ticks": 1272,
+                    "time": 6.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 1296,
+                    "time": 6.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1320,
+                    "time": 6.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 1344,
+                    "time": 7,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 1368,
+                    "time": 7.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 1392,
+                    "time": 7.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 1416,
+                    "time": 7.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 1440,
+                    "time": 7.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 1464,
+                    "time": 7.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 1488,
+                    "time": 7.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 1512,
+                    "time": 7.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1536,
+                    "time": 8,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 1560,
+                    "time": 8.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 1584,
+                    "time": 8.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1608,
+                    "time": 8.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 1632,
+                    "time": 8.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 1656,
+                    "time": 8.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1680,
+                    "time": 8.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 1704,
+                    "time": 8.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 1728,
+                    "time": 9,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1752,
+                    "time": 9.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 1776,
+                    "time": 9.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 1800,
+                    "time": 9.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1824,
+                    "time": 9.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 1848,
+                    "time": 9.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 1872,
+                    "time": 9.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1896,
+                    "time": 9.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1920,
+                    "time": 10,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 1944,
+                    "time": 10.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 1968,
+                    "time": 10.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 1992,
+                    "time": 10.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2016,
+                    "time": 10.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 2040,
+                    "time": 10.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 2064,
+                    "time": 10.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2088,
+                    "time": 10.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 2112,
+                    "time": 11,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 2136,
+                    "time": 11.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2160,
+                    "time": 11.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 2184,
+                    "time": 11.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 2208,
+                    "time": 11.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2232,
+                    "time": 11.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 2256,
+                    "time": 11.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 2280,
+                    "time": 11.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 2304,
+                    "time": 12,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2328,
+                    "time": 12.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 2352,
+                    "time": 12.25,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 2376,
+                    "time": 12.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2400,
+                    "time": 12.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 2424,
+                    "time": 12.625,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 2448,
+                    "time": 12.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2472,
+                    "time": 12.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 2496,
+                    "time": 13,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 2520,
+                    "time": 13.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2544,
+                    "time": 13.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 2568,
+                    "time": 13.375,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 2592,
+                    "time": 13.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2616,
+                    "time": 13.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 2640,
+                    "time": 13.75,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 2664,
+                    "time": 13.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2688,
+                    "time": 14,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 2712,
+                    "time": 14.125,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 2736,
+                    "time": 14.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2760,
+                    "time": 14.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 2784,
+                    "time": 14.5,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 2808,
+                    "time": 14.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2832,
+                    "time": 14.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 2856,
+                    "time": 14.875,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 2880,
+                    "time": 15,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2904,
+                    "time": 15.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 2928,
+                    "time": 15.25,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 2952,
+                    "time": 15.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 2976,
+                    "time": 15.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 3000,
+                    "time": 15.625,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 3024,
+                    "time": 15.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 3048,
+                    "time": 15.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3072,
+                    "time": 16,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 3096,
+                    "time": 16.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 3120,
+                    "time": 16.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3144,
+                    "time": 16.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 3168,
+                    "time": 16.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 3192,
+                    "time": 16.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3216,
+                    "time": 16.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 3240,
+                    "time": 16.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 3264,
+                    "time": 17,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3288,
+                    "time": 17.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 3312,
+                    "time": 17.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 3336,
+                    "time": 17.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3360,
+                    "time": 17.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 3384,
+                    "time": 17.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 3408,
+                    "time": 17.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3432,
+                    "time": 17.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3456,
+                    "time": 18,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 3480,
+                    "time": 18.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 3504,
+                    "time": 18.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3528,
+                    "time": 18.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 3552,
+                    "time": 18.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 3576,
+                    "time": 18.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3600,
+                    "time": 18.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 3624,
+                    "time": 18.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 3648,
+                    "time": 19,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3672,
+                    "time": 19.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 3696,
+                    "time": 19.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 3720,
+                    "time": 19.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3744,
+                    "time": 19.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 3768,
+                    "time": 19.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 3792,
+                    "time": 19.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 3816,
+                    "time": 19.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 3840,
+                    "time": 20,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 3864,
+                    "time": 20.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 3888,
+                    "time": 20.25,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 3912,
+                    "time": 20.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 3936,
+                    "time": 20.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 3960,
+                    "time": 20.625,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 3984,
+                    "time": 20.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 4008,
+                    "time": 20.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 4032,
+                    "time": 21,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 4056,
+                    "time": 21.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 4080,
+                    "time": 21.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 4104,
+                    "time": 21.375,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 4128,
+                    "time": 21.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 4152,
+                    "time": 21.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 4176,
+                    "time": 21.75,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 4200,
+                    "time": 21.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 4224,
+                    "time": 22,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 4248,
+                    "time": 22.125,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 4272,
+                    "time": 22.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 4296,
+                    "time": 22.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 4320,
+                    "time": 22.5,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 4344,
+                    "time": 22.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 4368,
+                    "time": 22.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 4392,
+                    "time": 22.875,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 4416,
+                    "time": 23,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 4440,
+                    "time": 23.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 4464,
+                    "time": 23.25,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 4488,
+                    "time": 23.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 4512,
+                    "time": 23.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 4536,
+                    "time": 23.625,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 4560,
+                    "time": 23.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 4584,
+                    "time": 23.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 4608,
+                    "time": 24,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 4632,
+                    "time": 24.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 4656,
+                    "time": 24.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 4680,
+                    "time": 24.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 4704,
+                    "time": 24.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 4728,
+                    "time": 24.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 4752,
+                    "time": 24.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 4776,
+                    "time": 24.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 4800,
+                    "time": 25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 4824,
+                    "time": 25.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 4848,
+                    "time": 25.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 4872,
+                    "time": 25.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 4896,
+                    "time": 25.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 90,
+                    "name": "F#6",
+                    "ticks": 4920,
+                    "time": 25.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 85,
+                    "name": "C#6",
+                    "ticks": 4944,
+                    "time": 25.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 4968,
+                    "time": 25.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 4992,
+                    "time": 26,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5016,
+                    "time": 26.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 5040,
+                    "time": 26.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 5064,
+                    "time": 26.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5088,
+                    "time": 26.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 5112,
+                    "time": 26.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 5136,
+                    "time": 26.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5160,
+                    "time": 26.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 5184,
+                    "time": 27,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 5208,
+                    "time": 27.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5232,
+                    "time": 27.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 5256,
+                    "time": 27.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 5280,
+                    "time": 27.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5304,
+                    "time": 27.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 89,
+                    "name": "F6",
+                    "ticks": 5328,
+                    "time": 27.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 97,
+                    "name": "C#7",
+                    "ticks": 5352,
+                    "time": 27.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 5376,
+                    "time": 28,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5400,
+                    "time": 28.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 5424,
+                    "time": 28.25,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 5448,
+                    "time": 28.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5472,
+                    "time": 28.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 5496,
+                    "time": 28.625,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 5520,
+                    "time": 28.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5544,
+                    "time": 28.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 5568,
+                    "time": 29,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 5592,
+                    "time": 29.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5616,
+                    "time": 29.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 5640,
+                    "time": 29.375,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 5664,
+                    "time": 29.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5688,
+                    "time": 29.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 5712,
+                    "time": 29.75,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 5736,
+                    "time": 29.875,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5760,
+                    "time": 30,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 5784,
+                    "time": 30.125,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 5808,
+                    "time": 30.25,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5832,
+                    "time": 30.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 5856,
+                    "time": 30.5,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 5880,
+                    "time": 30.625,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5904,
+                    "time": 30.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 5928,
+                    "time": 30.875,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 5952,
+                    "time": 31,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 5976,
+                    "time": 31.125,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 6000,
+                    "time": 31.25,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 6024,
+                    "time": 31.375,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 6048,
+                    "time": 31.5,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 87,
+                    "name": "D#6",
+                    "ticks": 6072,
+                    "time": 31.625,
+                    "velocity": 0.6141732283464567
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 96,
+                    "name": "C7",
+                    "ticks": 6096,
+                    "time": 31.75,
+                    "velocity": 0.7874015748031497
+                },
+                {
+                    "duration": 0.125,
+                    "durationTicks": 24,
+                    "midi": 94,
+                    "name": "A#6",
+                    "ticks": 6120,
+                    "time": 31.875,
+                    "velocity": 0.7874015748031497
+                }
+            ],
+            "endOfTrackTicks": 6144
+        }
+    ]
+}

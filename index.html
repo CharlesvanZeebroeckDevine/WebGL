@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Audio-Visual Editor</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="audio-editor">
+      <h1>Interactive Audio-Visual Editor</h1>
+      <div class="playback-controls">
+        <button id="start-btn" class="play-btn">▶ Start</button>
+        <button id="stop-btn" class="play-btn" disabled>⏹ Stop</button>
+        <button id="test-effect-btn" class="play-btn" style="background: linear-gradient(135deg, #f59e0b, #d97706);">🔊
+          Test Effect</button>
+        <div class="status">
+          <span id="status-text">Ready to play</span>
+          <span id="loading-text"></span>
+        </div>
+      </div>
+
+      <div class="visualization-container">
+        <h2>Audio-Reactive Visualization</h2>
+        <div id="threejs-container" class="threejs-container"></div>
+      </div>
+
+      <div class="track-controls">
+        <h2>Track Controls</h2>
+        <div class="tracks">
+          <div class="track-item">
+            <div class="track-header">
+              <div class="track-info">
+                <span class="track-name">🎹 Piano (Lead)</span>
+                <span class="track-instrument">Electric Piano TX81Z</span>
+              </div>
+              <div class="track-controls-group">
+                <div class="volume-control">
+                  <label for="volume-piano" class="volume-label">
+                    <span class="volume-icon">🔊</span>
+                    <span class="volume-value" id="volume-value-piano">100</span>
+                  </label>
+                  <input type="range" id="volume-piano" class="volume-slider" min="0" max="127" value="100"
+                    data-track="piano">
+                </div>
+                <button id="mute-piano" class="mute-btn" data-track="piano">
+                  <span class="mute-icon">🔊</span>
+                  <span class="mute-text">Mute</span>
+                </button>
+                <button class="effects-toggle-btn" data-track="piano">🎛️ Effects</button>
+              </div>
+            </div>
+            <div class="effects-panel" id="effects-piano">
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="piano" data-effect="bitcrusher">
+                  <span>BitCrusher</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="piano" data-effect="bitcrusher" min="1" max="16"
+                    value="4" step="1">
+                  <span class="effect-value" data-track="piano" data-effect="bitcrusher">4 bits</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="piano" data-effect="reverb">
+                  <span>Reverb</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="piano" data-effect="reverb" min="0" max="1"
+                    value="0.5" step="0.01">
+                  <span class="effect-value" data-track="piano" data-effect="reverb">0.50</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="piano" data-effect="distortion">
+                  <span>Distortion</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="piano" data-effect="distortion" min="0" max="1"
+                    value="0.4" step="0.01">
+                  <span class="effect-value" data-track="piano" data-effect="distortion">0.40</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="piano" data-effect="phaser">
+                  <span>Phaser</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="piano" data-effect="phaser" min="0.1" max="10"
+                    value="0.5" step="0.1">
+                  <span class="effect-value" data-track="piano" data-effect="phaser">0.5 Hz</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="piano" data-effect="vibrato">
+                  <span>Vibrato</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="piano" data-effect="vibrato" min="1" max="20"
+                    value="5" step="0.1">
+                  <span class="effect-value" data-track="piano" data-effect="vibrato">5.0 Hz</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="track-item">
+            <div class="track-header">
+              <div class="track-info">
+                <span class="track-name">🎸 Bassline</span>
+                <span class="track-instrument">Double Bass (Switched)</span>
+              </div>
+              <div class="track-controls-group">
+                <div class="volume-control">
+                  <label for="volume-bass" class="volume-label">
+                    <span class="volume-icon">🔊</span>
+                    <span class="volume-value" id="volume-value-bass">100</span>
+                  </label>
+                  <input type="range" id="volume-bass" class="volume-slider" min="0" max="127" value="100"
+                    data-track="bass">
+                </div>
+                <button id="mute-bass" class="mute-btn" data-track="bass">
+                  <span class="mute-icon">🔊</span>
+                  <span class="mute-text">Mute</span>
+                </button>
+                <button class="effects-toggle-btn" data-track="bass">🎛️ Effects</button>
+              </div>
+            </div>
+            <div class="effects-panel" id="effects-bass">
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="bass" data-effect="bitcrusher">
+                  <span>BitCrusher</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="bass" data-effect="bitcrusher" min="1" max="16"
+                    value="4" step="1">
+                  <span class="effect-value" data-track="bass" data-effect="bitcrusher">4 bits</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="bass" data-effect="reverb">
+                  <span>Reverb</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="bass" data-effect="reverb" min="0" max="1"
+                    value="0.5" step="0.01">
+                  <span class="effect-value" data-track="bass" data-effect="reverb">0.50</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="bass" data-effect="distortion">
+                  <span>Distortion</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="bass" data-effect="distortion" min="0" max="1"
+                    value="0.4" step="0.01">
+                  <span class="effect-value" data-track="bass" data-effect="distortion">0.40</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="bass" data-effect="phaser">
+                  <span>Phaser</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="bass" data-effect="phaser" min="0.1" max="10"
+                    value="0.5" step="0.1">
+                  <span class="effect-value" data-track="bass" data-effect="phaser">0.5 Hz</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="bass" data-effect="vibrato">
+                  <span>Vibrato</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="bass" data-effect="vibrato" min="1" max="20"
+                    value="5" step="0.1">
+                  <span class="effect-value" data-track="bass" data-effect="vibrato">5.0 Hz</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="track-item">
+            <div class="track-header">
+              <div class="track-info">
+                <span class="track-name">🎺 Poly</span>
+                <span class="track-instrument">Mellotron</span>
+              </div>
+              <div class="track-controls-group">
+                <div class="volume-control">
+                  <label for="volume-poly" class="volume-label">
+                    <span class="volume-icon">🔊</span>
+                    <span class="volume-value" id="volume-value-poly">100</span>
+                  </label>
+                  <input type="range" id="volume-poly" class="volume-slider" min="0" max="127" value="100"
+                    data-track="poly">
+                </div>
+                <button id="mute-poly" class="mute-btn" data-track="poly">
+                  <span class="mute-icon">🔊</span>
+                  <span class="mute-text">Mute</span>
+                </button>
+                <button class="effects-toggle-btn" data-track="poly">🎛️ Effects</button>
+              </div>
+            </div>
+            <div class="effects-panel" id="effects-poly">
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="poly" data-effect="bitcrusher">
+                  <span>BitCrusher</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="poly" data-effect="bitcrusher" min="1" max="16"
+                    value="4" step="1">
+                  <span class="effect-value" data-track="poly" data-effect="bitcrusher">4 bits</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="poly" data-effect="reverb">
+                  <span>Reverb</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="poly" data-effect="reverb" min="0" max="1"
+                    value="0.5" step="0.01">
+                  <span class="effect-value" data-track="poly" data-effect="reverb">0.50</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="poly" data-effect="distortion">
+                  <span>Distortion</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="poly" data-effect="distortion" min="0" max="1"
+                    value="0.4" step="0.01">
+                  <span class="effect-value" data-track="poly" data-effect="distortion">0.40</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="poly" data-effect="phaser">
+                  <span>Phaser</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="poly" data-effect="phaser" min="0.1" max="10"
+                    value="0.5" step="0.1">
+                  <span class="effect-value" data-track="poly" data-effect="phaser">0.5 Hz</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="poly" data-effect="vibrato">
+                  <span>Vibrato</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="poly" data-effect="vibrato" min="1" max="20"
+                    value="5" step="0.1">
+                  <span class="effect-value" data-track="poly" data-effect="vibrato">5.0 Hz</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="track-item">
+            <div class="track-header">
+              <div class="track-info">
+                <span class="track-name">🥁 Drums</span>
+                <span class="track-instrument">TR-808</span>
+              </div>
+              <div class="track-controls-group">
+                <div class="volume-control">
+                  <label for="volume-drums" class="volume-label">
+                    <span class="volume-icon">🔊</span>
+                    <span class="volume-value" id="volume-value-drums">100</span>
+                  </label>
+                  <input type="range" id="volume-drums" class="volume-slider" min="0" max="127" value="100"
+                    data-track="drums">
+                </div>
+                <button id="mute-drums" class="mute-btn" data-track="drums">
+                  <span class="mute-icon">🔊</span>
+                  <span class="mute-text">Mute</span>
+                </button>
+                <button class="effects-toggle-btn" data-track="drums">🎛️ Effects</button>
+              </div>
+            </div>
+            <div class="effects-panel" id="effects-drums">
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="drums" data-effect="bitcrusher">
+                  <span>BitCrusher</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="drums" data-effect="bitcrusher" min="1" max="16"
+                    value="4" step="1">
+                  <span class="effect-value" data-track="drums" data-effect="bitcrusher">4 bits</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="drums" data-effect="reverb">
+                  <span>Reverb</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="drums" data-effect="reverb" min="0" max="1"
+                    value="0.5" step="0.01">
+                  <span class="effect-value" data-track="drums" data-effect="reverb">0.50</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="drums" data-effect="distortion">
+                  <span>Distortion</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="drums" data-effect="distortion" min="0" max="1"
+                    value="0.4" step="0.01">
+                  <span class="effect-value" data-track="drums" data-effect="distortion">0.40</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="drums" data-effect="phaser">
+                  <span>Phaser</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="drums" data-effect="phaser" min="0.1" max="10"
+                    value="0.5" step="0.1">
+                  <span class="effect-value" data-track="drums" data-effect="phaser">0.5 Hz</span>
+                </div>
+              </div>
+              <div class="effect-item">
+                <label class="effect-label">
+                  <input type="checkbox" class="effect-toggle" data-track="drums" data-effect="vibrato">
+                  <span>Vibrato</span>
+                </label>
+                <div class="effect-control">
+                  <input type="range" class="effect-param" data-track="drums" data-effect="vibrato" min="1" max="20"
+                    value="5" step="0.1">
+                  <span class="effect-value" data-track="drums" data-effect="vibrato">5.0 Hz</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Three.js Visualization Container -->
+
+      <!-- Commented out for now - individual instrument testing
+      <div class="instruments">
+        <div class="instrument-section">
+          <h2>Lead Synth (Electric Piano)</h2>
+          <button id="lead-synth-btn" class="instrument-btn">Play Lead Note</button>
+        </div>
+        <div class="instrument-section">
+          <h2>Bass Synth (Double Bass)</h2>
+          <button id="bass-synth-btn" class="instrument-btn">Play Bass Note</button>
+        </div>
+        <div class="instrument-section">
+          <h2>Mellotron (custom)</h2>
+          <button id="mellotron-btn" class="instrument-btn">Play Mellotron Note</button>
+        </div>
+        <div class="instrument-section">
+          <h2>Drum Machine (TR-808)</h2>
+          <div class="drum-buttons">
+            <button id="kick-btn" class="drum-btn">Kick</button>
+            <button id="cymbal-btn" class="drum-btn">Cymbal</button>
+            <button id="snare-btn" class="drum-btn">Snare</button>
+            <button id="kick2-btn" class="drum-btn">Kick 2</button>
+          </div>
+        </div>
+      </div>
+      -->
+    </div>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>

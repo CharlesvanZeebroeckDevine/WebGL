@@ -1,0 +1,200 @@
+{
+    "header": {
+        "keySignatures": [],
+        "meta": [],
+        "name": "",
+        "ppq": 96,
+        "tempos": [
+            {
+                "ticks": 0
+            }
+        ],
+        "timeSignatures": []
+    },
+    "tracks": [
+        {
+            "channel": 0,
+            "controlChanges": {},
+            "pitchBends": [],
+            "instrument": {
+                "family": "piano",
+                "number": 0,
+                "name": "acoustic grand piano"
+            },
+            "name": "",
+            "notes": [
+                {
+                    "duration": 0.14285725,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 0,
+                    "time": 0,
+                    "velocity": 0.5039370078740157
+                },
+                {
+                    "duration": 0.14285725,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 32,
+                    "time": 0.14285725,
+                    "velocity": 0.8031496062992126
+                },
+                {
+                    "duration": 0.14285725,
+                    "durationTicks": 32,
+                    "name": "kick",
+                    "ticks": 64,
+                    "time": 0.2857145,
+                    "velocity": 0.8031496062992126
+                },
+                {
+                    "duration": 0.14285725,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 64,
+                    "time": 0.2857145,
+                    "velocity": 0.5039370078740157
+                },
+                {
+                    "duration": 0.14285725,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 96,
+                    "time": 0.42857175,
+                    "velocity": 0.8031496062992126
+                },
+                {
+                    "duration": 0.14285725000000005,
+                    "durationTicks": 32,
+                    "midi": 42,
+                    "name": "hihat-close",
+                    "ticks": 128,
+                    "time": 0.571429,
+                    "velocity": 0.5039370078740157
+                },
+                {
+                    "duration": 0.14285724999999994,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 160,
+                    "time": 0.71428625,
+                    "velocity": 0.8031496062992126
+                },
+                {
+                    "duration": 0.14285724999999994,
+                    "durationTicks": 32,
+                    "midi": 36,
+                    "name": "kick",
+                    "ticks": 192,
+                    "time": 0.8571435,
+                    "velocity": 0.8031496062992126
+                },
+                {
+                    "duration": 0.14285724999999994,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 192,
+                    "time": 0.8571435,
+                    "velocity": 0.5039370078740157
+                },
+                {
+                    "duration": 0.14285725000000005,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 224,
+                    "time": 1.0000007499999999,
+                    "velocity": 0.8031496062992126
+                },
+                {
+                    "duration": 0.14285725000000005,
+                    "durationTicks": 32,
+                    "name": "snare",
+                    "ticks": 256,
+                    "time": 1.142858,
+                    "velocity": 1
+                },
+                {
+                    "duration": 0.14285725000000005,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 256,
+                    "time": 1.142858,
+                    "velocity": 0.5039370078740157
+                },
+                {
+                    "duration": 0.14285725000000005,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 288,
+                    "time": 1.28571525,
+                    "velocity": 0.8031496062992126
+                },
+                {
+                    "duration": 0.14285724999999982,
+                    "durationTicks": 32,
+                    "name": "kick",
+                    "ticks": 320,
+                    "time": 1.4285725,
+                    "velocity": 0.8031496062992126
+                },
+                {
+                    "duration": 0.14285724999999982,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 320,
+                    "time": 1.4285725,
+                    "velocity": 0.5039370078740157
+                },
+                {
+                    "duration": 0.14285725000000005,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 352,
+                    "time": 1.5714297499999998,
+                    "velocity": 0.8031496062992126
+                },
+                {
+                    "duration": 0.14285725000000005,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 384,
+                    "time": 1.714287,
+                    "velocity": 0.5039370078740157
+                },
+                {
+                    "duration": 0.14285724999999982,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 416,
+                    "time": 1.85714425,
+                    "velocity": 0.8031496062992126
+                },
+                {
+                    "duration": 0.14285725000000005,
+                    "durationTicks": 32,
+                    "name": "kick",
+                    "ticks": 448,
+                    "time": 2.0000014999999998,
+                    "velocity": 0.8031496062992126
+                },
+                {
+                    "duration": 0.14285725000000005,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 448,
+                    "time": 2.0000014999999998,
+                    "velocity": 0.5039370078740157
+                },
+                {
+                    "duration": 0.14285725000000005,
+                    "durationTicks": 32,
+                    "name": "hihat-close",
+                    "ticks": 480,
+                    "time": 2.14285875,
+                    "velocity": 0.8031496062992126
+                }
+            ],
+            "endOfTrackTicks": 512
+        }
+    ]
+}

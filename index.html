@@ -18,8 +18,9 @@
       <div class="audio-editor">
         <h1>Audio Visualizer</h1>
         <div class="playback-controls">
-          <button id="start-btn" class="play-btn">Start</button>
-          <button id="stop-btn" class="play-btn" disabled>Stop</button>
+          <div class="playback-controls-play-stop"> <button id="start-btn" class="play-btn">Start</button>
+            <button id="stop-btn" class="play-btn" disabled>Stop</button>
+          </div>
           <button id="test-effect-btn" class="play-btn">Test Effect</button>
 
           <div class="status">
@@ -205,9 +206,9 @@
                 <div class="track-controls-group">
                   <div class="volume-control">
                     <label for="volume-poly" class="volume-label">
-                      <span class="volume-value" id="volume-value-poly">100</span>
+                      <span class="volume-value" id="volume-value-poly">50</span>
                     </label>
-                    <input type="range" id="volume-poly" class="volume-slider" min="0" max="127" value="100"
+                    <input type="range" id="volume-poly" class="volume-slider" min="0" max="127" value="50"
                       data-track="poly">
                   </div>
                   <button id="mute-poly" class="mute-btn" data-track="poly">

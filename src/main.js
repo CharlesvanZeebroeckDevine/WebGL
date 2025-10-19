@@ -169,7 +169,7 @@ let trackMuteState = {
 let trackVolumeState = {
   piano: 100,
   bass: 100,
-  poly: 100,
+  poly: 50,
   drums: 100
 }
 let effectsState = {
@@ -515,6 +515,11 @@ function handleBPMChange() {
   // Update Tone.js Transport BPM
   Tone.Transport.bpm.value = bpm
 
+  // Update visualization BPM
+  if (audioVisualization && audioVisualization.updateBPM) {
+    audioVisualization.updateBPM(bpm)
+  }
+
   // Update status text if playing
   if (isPlaying) {
     statusText.textContent = `Playing (${bpm} BPM)`
@@ -528,6 +533,11 @@ function setBPM(bpm) {
   bpmSlider.value = bpm
   bpmValue.textContent = bpm
   Tone.Transport.bpm.value = bpm
+
+  // Update visualization BPM
+  if (audioVisualization && audioVisualization.updateBPM) {
+    audioVisualization.updateBPM(bpm)
+  }
 
   if (isPlaying) {
     statusText.textContent = `Playing (${bpm} BPM)`

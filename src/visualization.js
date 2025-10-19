@@ -10,6 +10,7 @@ uniform float iMelody2Level; // Audio level from melody2 (poly) analyzer
 uniform float iMelody2Frequency; // Frequency data from melody2 (poly) analyzer
 uniform float iMelody3Level; // Audio level from melody3 (drums) analyzer
 uniform float iMelody3Frequency; // Frequency data from melody3 (drums) analyzer
+uniform float iBPM; // BPM value for zoom scale control
 
 // RGB to HSV conversion
 vec3 rgb2hsv(vec3 c) {
@@ -40,8 +41,12 @@ void main() {
     float l, z = timePulse + timeSmooth;
     
     // Create zoom effect based on melody3 (drums) - scale manipulation
-    float zoomScale = 1.5 + iMelody3Level * 0.1; // Level-based zoom (0.5x max zoom)
-    float zoomPulse = 1.5 + sin(iMelody3Frequency * 6.28) * 0.1; // Frequency-based pulsing zoom
+    // BPM controls base zoom scale (0.3 to 2.0 range)
+    float bpmScale = 0.3 + (iBPM - 60.0) / 140.0 * 1.7; // Map BPM 60-200 to 0.3-2.0
+    bpmScale = clamp(bpmScale, 0.3, 2.0); // Ensure within range
+    
+    float zoomScale = bpmScale + iMelody3Level * 0.1; // BPM-based zoom + level modulation
+    float zoomPulse = bpmScale + sin(iMelody3Frequency * 6.28) * 0.1; // BPM-based zoom + frequency pulsing
     float finalZoom = zoomScale * zoomPulse;
     
     for(int i = 0; i < 3; i++) {
@@ -139,7 +144,8 @@ export const audioVisualization = {
                 iMelody2Level: { value: 0.0 }, // Audio level from melody2 (poly)
                 iMelody2Frequency: { value: 0.0 }, // Frequency data from melody2 (poly)
                 iMelody3Level: { value: 0.0 }, // Audio level from melody3 (drums)
-                iMelody3Frequency: { value: 0.0 } // Frequency data from melody3 (drums)
+                iMelody3Frequency: { value: 0.0 }, // Frequency data from melody3 (drums)
+                iBPM: { value: 100.0 } // BPM for zoom scale control
             }
         })
 
@@ -402,6 +408,14 @@ export const audioVisualization = {
                     zoomPulse: (1.0 + Math.sin(melody3Frequency * 6.28) * 0.3).toFixed(3)
                 }
             })
+        }
+    },
+
+    // Update BPM in shader
+    updateBPM(bpm) {
+        if (this.material && this.material.uniforms.iBPM) {
+            this.material.uniforms.iBPM.value = bpm
+            console.log(`🎵 BPM updated in shader: ${bpm}`)
         }
     }
 }

@@ -122,6 +122,13 @@ async function initializeEffects() {
     wet: effects.piano.bitcrusher.wet ? effects.piano.bitcrusher.wet.value : 'N/A'
   })
 
+  // CRITICAL: Connect gain nodes to destination initially
+  pianoGain.toDestination()
+  bassGain.toDestination()
+  polyGain.toDestination()
+  drumGain.toDestination()
+  console.log('✓ All gain nodes connected to destination')
+
   // Routing is now complete!
   // smplr instruments were created with destination: pianoGain.input
   // So the signal flow is: smplr instrument → Tone.Gain → (effects when enabled) → Destination
@@ -202,6 +209,10 @@ const volumeBassValue = document.getElementById('volume-value-bass')
 const volumePolyValue = document.getElementById('volume-value-poly')
 const volumeDrumsValue = document.getElementById('volume-value-drums')
 
+// BPM control elements
+const bpmSlider = document.getElementById('bpm-slider')
+const bpmValue = document.getElementById('bpm-value')
+
 // Function to load JSON tracks
 async function loadJSONTracks() {
   try {
@@ -235,6 +246,11 @@ async function loadJSONTracks() {
     }
     const bpm = basslineData?.header?.tempos?.[0]?.bpm || 100
     Tone.Transport.bpm.value = bpm
+
+    // Update BPM slider and display to match JSON BPM
+    bpmSlider.value = bpm
+    bpmValue.textContent = bpm
+
     console.log(`Transport BPM set to: ${bpm}`)
     console.log('JSON tracks loaded successfully')
 
@@ -491,6 +507,35 @@ function handleVolumeChange(track, slider, valueDisplay) {
   console.log(`${track} volume: ${volume}`)
 }
 
+// Function to handle BPM changes
+function handleBPMChange() {
+  const bpm = parseInt(bpmSlider.value)
+  bpmValue.textContent = bpm
+
+  // Update Tone.js Transport BPM
+  Tone.Transport.bpm.value = bpm
+
+  // Update status text if playing
+  if (isPlaying) {
+    statusText.textContent = `Playing (${bpm} BPM)`
+  }
+
+  console.log(`BPM changed to: ${bpm}`)
+}
+
+// Function to set BPM programmatically
+function setBPM(bpm) {
+  bpmSlider.value = bpm
+  bpmValue.textContent = bpm
+  Tone.Transport.bpm.value = bpm
+
+  if (isPlaying) {
+    statusText.textContent = `Playing (${bpm} BPM)`
+  }
+
+  console.log(`BPM set to: ${bpm}`)
+}
+
 // Function to toggle mute state
 function toggleMute(track, button) {
   trackMuteState[track] = !trackMuteState[track]
@@ -507,16 +552,13 @@ function toggleMute(track, button) {
   }
 
   // Update button appearance
-  const muteIcon = button.querySelector('.mute-icon')
   const muteText = button.querySelector('.mute-text')
 
   if (isMuted) {
     button.classList.add('muted')
-    muteIcon.textContent = '🔇'
     muteText.textContent = 'Unmute'
   } else {
     button.classList.remove('muted')
-    muteIcon.textContent = '🔊'
     muteText.textContent = 'Mute'
   }
 
@@ -610,26 +652,48 @@ function rebuildEffectChain(track) {
 function reconnectAnalyzers(track, gainNode) {
   if (!audioVisualization.audioAnalyzers) return
 
+  // Disconnect old analyzer connections first
+  if (audioVisualization.audioAnalyzers.melody1) {
+    try {
+      gainNode.disconnect(audioVisualization.audioAnalyzers.melody1)
+    } catch (e) {
+      // Connection might not exist, that's fine
+    }
+  }
+  if (audioVisualization.audioAnalyzers.melody2) {
+    try {
+      gainNode.disconnect(audioVisualization.audioAnalyzers.melody2)
+    } catch (e) {
+      // Connection might not exist, that's fine
+    }
+  }
+  if (audioVisualization.audioAnalyzers.melody3) {
+    try {
+      gainNode.disconnect(audioVisualization.audioAnalyzers.melody3)
+    } catch (e) {
+      // Connection might not exist, that's fine
+    }
+  }
+
+  // Reconnect to appropriate analyzer
   switch (track) {
     case 'piano':
-      if (audioVisualization.audioAnalyzers.melody1) {
-        gainNode.connect(audioVisualization.audioAnalyzers.melody1)
-        console.log(`  ✓ Reconnected ${track} to melody1 analyzer`)
-      }
-      break
     case 'bass':
-      if (audioVisualization.audioAnalyzers.melody1) {
-        gainNode.connect(audioVisualization.audioAnalyzers.melody1)
-        console.log(`  ✓ Reconnected ${track} to melody1 analyzer`)
+      // Piano and bass connect to melody1 mixer
+      if (audioVisualization.audioAnalyzers.melody1Mixer) {
+        gainNode.connect(audioVisualization.audioAnalyzers.melody1Mixer)
+        console.log(`  ✓ Reconnected ${track} to melody1 mixer`)
       }
       break
     case 'poly':
+      // Poly connects to melody2 analyzer
       if (audioVisualization.audioAnalyzers.melody2) {
         gainNode.connect(audioVisualization.audioAnalyzers.melody2)
         console.log(`  ✓ Reconnected ${track} to melody2 analyzer`)
       }
       break
     case 'drums':
+      // Drums connects to melody3 analyzer
       if (audioVisualization.audioAnalyzers.melody3) {
         gainNode.connect(audioVisualization.audioAnalyzers.melody3)
         console.log(`  ✓ Reconnected ${track} to melody3 analyzer`)
@@ -744,6 +808,9 @@ volumePianoSlider.oninput = () => handleVolumeChange('piano', volumePianoSlider,
 volumeBassSlider.oninput = () => handleVolumeChange('bass', volumeBassSlider, volumeBassValue)
 volumePolySlider.oninput = () => handleVolumeChange('poly', volumePolySlider, volumePolyValue)
 volumeDrumsSlider.oninput = () => handleVolumeChange('drums', volumeDrumsSlider, volumeDrumsValue)
+
+// Event listener for BPM slider
+bpmSlider.oninput = handleBPMChange
 
 // Event listeners for effects toggle buttons
 document.querySelectorAll('.effects-toggle-btn').forEach(btn => {
